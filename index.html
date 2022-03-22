@@ -28,7 +28,7 @@
 
     <main>
 
-        <section class="bio">
+        <section class="content" id=bio>
             <h2>Bio</h2>
             <div>
                 <p>
@@ -66,7 +66,8 @@
         </section>
 
         <!-- flex-box cards containing each project -->
-        <section class="projects">
+        <!-- added class "content" instead of trying to address each class separately -->
+        <section class="content" id="projects">
             <h2>Projects</h2>
             <div class="deck">
 
@@ -107,10 +108,22 @@
 
             </div>
         </section>
+        <br>
+        <br>
+        <!-- moved contact info from footer to hear so i can style them all with class content -->
+        <section class="content" id="contact">
+            <h2>Contact Me</h2>
+            <div>
+                <address>
+                    <span>678-313-1764</span>
+                    <span>noahneville@gmail.com</span>
+                    <a href="https://www.noahneville.com">noahneville.com</a>
+                </address>
+            </div>
+        </section>
     </main>
 
-    <!-- contact info -->
-    <footer id="contact">
+    <!-- <footer id="contact">
         <h2>Contact Me</h2>
         <div>
             <address>
@@ -119,7 +132,7 @@
                 <a href="https://www.noahneville.com">noahneville.com</a>
             </address>
         </div>
-    </footer>
+    </footer> -->
 
 </body>
 </html>
