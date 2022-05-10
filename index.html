@@ -1,105 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Noah Brunner's Porfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- My name and a nav bar linking to portfolio sections on page -->
     <header>
-        <h1>Noah Brunner</h1>
-        <nav>
-            <a href="#bio">Bio</a>
-            <a href="#projects">Projects</a>
-            <a href="./assets/resume/Noah_Brunner_Resume 8 1.PDF">Resume</a>
-            <a href="#contact">Contact Me</a>
-        </nav>
+      <h1>Noah Brunner</h1>
+      <nav>
+        <a href="#bio">Bio</a>
+        <a href="#projects">Projects</a>
+        <a href="./assets/resume/Noah_Brunner_Resume 8 1.PDF">Resume</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
     </header>
 
     <section class="banner">
-        <div>
-            <h1>Welcome to my porfolio!</h1>
-        </div>
+      <div>
+        <h1>Welcome to my porfolio!</h1>
+      </div>
     </section>
 
     <main>
+      <section class="content" id="bio">
+        <h2>Bio</h2>
+        <div>
+          <p>
+            I'm Noah Brunner, a 29 year old living in Atlanta, Georgia. I've
+            worked in a variety of fields, from film production, sports
+            journalism, real estate and marketing. I've always had a great
+            interest in computers and was looking for a career change, leading
+            me to enroll in this Full Stack Web Development Bootcamp.
+          </p>
+          <br />
+          <p>
+            Here, I'm showcasing my work from said bootcamp. This entire portfolio will be replaced by a better porfolio created in technologies that aren't from 1991. 
+          </p>
+        </div>
+      </section>
 
-        <section class="content" id=bio>
-            <h2>Bio</h2>
+      <!-- flex-box cards containing each project -->
+      <!-- added class "content" instead of trying to address each class separately -->
+      <section class="content" id="projects">
+        <h2>Projects</h2>
+        <div class="deck">
+          <div>
+            <a
+              href="https://noahneville.github.io/Meal-Planner/"
+              class="cards"
+              id="project-1"
+            >
+              <h3>Meal Planner</h3>
+              <a href="https://github.com/noahneville/Meal-Planner">Find recipe & wine pairings based on your dietary needs</a>
+            </a>
+          </div>
+
+          <div class="cards" id="project-2">
+            <a href="https://noahneville.github.io/work-day-scheduler/" class="card-title">Work Day Scheduler</a>
+            <a href="https://github.com/noahneville/work-day-scheduler" class="card-subtitle">A simple day planner to keep track of your work hours</a>
+          </div>
+
+          <div class="cards" id="project-3">
+            <a href="https://nnb-note-taker.herokuapp.com/" class="card-title">Note Taker</a>
+            <a href="https://github.com/noahneville/Note-Taker" class="card-subtitle">Create, edit and save simple notes online</a>
+          </div>
+
+          <a href="#" class="cards" id="project-4">
             <div>
-                <p>
-                    I'm Noah Brunner, a 29 year old living in Atlanta, Georgia. I've worked in a variety of fields, from film production, sports journalism, real estate and marketing. I've always had a great interest in computers and was looking for a career change, leading me to enroll in this Full Stack Web Development Bootcamp. 
-                </p>
-                <br>
-                <p>
-                    Here, I'm showcasing my work from said bootcamp. Right now, I only have one project to display. But I'll update and include more as I complete them. Thanks for checking out my page. 
-                </p>
+              <h3>Project 4</h3>
+              <h4>React</h4>
             </div>
-        </section>
+          </a>
 
-        <!-- flex-box cards containing each project -->
-        <!-- added class "content" instead of trying to address each class separately -->
-        <section class="content" id="projects">
-            <h2>Projects</h2>
-            <div class="deck">
-
-                <a href="https://github.com/noahneville/Meal-Planner" class="cards" id="project-1">
-                    <div>
-                        <h3>Meal Planner</h3>
-                        <h4>Generate a recipe & a wine pairing based on your needs</h4>
-                    </div>
-                </a>
-
-                <a href="https://github.com/noahneville/work-day-scheduler" class="cards" id="project-2">
-                    <div>
-                        <h3>Work Day Scheduler</h3>
-                        <h4>A simple day planner to keep track of your work hours</h4>
-                    </div>
-                </a>
-
-                <a href="#" class="cards" id="project-3">
-                    <div>
-                        <h3>Project 3</h3>
-                        <h4>Node.js</h4>
-                    </div>
-                </a>
-
-                <a href="#" class="cards" id="project-4">
-                    <div>
-                        <h3>Project 4</h3>
-                        <h4>React</h4>
-                    </div>
-                </a>
-
-                <a href="#" class="cards" id="project-5">
-                    <div>
-                        <h3>Project 5</h3>
-                        <h4>MERN Stack</h4>
-                    </div>
-                </a>
-
-            </div>
-        </section>
-        <br>
-        <br>
-        <!-- moved contact info from footer to hear so i can style them all with class content -->
-        <section class="content" id="contact">
-            <h2>Contact Me</h2>
+          <a href="#" class="cards" id="project-5">
             <div>
-                <address>
-                    <span>678-313-1764</span>
-                    <span>noahneville@gmail.com</span>
-                    <a href="https://www.noahneville.com">noahneville.com</a>
-                    <a href="https://www.github.com/noahneville/">Github</a>
-                    <a href="https://www.linkedin.com/in/noahbrunner/">LinkedIn</a>
-                </address>
+              <h3>Project 5</h3>
+              <h4>MERN Stack</h4>
             </div>
-        </section>
+          </a>
+        </div>
+      </section>
+      <br />
+      <br />
+      <!-- moved contact info from footer to hear so i can style them all with class content -->
+      <section class="content" id="contact">
+        <h2>Contact Me</h2>
+        <div>
+          <address>
+            <span>678-313-1764</span>
+            <span>noahneville@gmail.com</span>
+            <a href="https://www.noahneville.com">noahneville.com</a>
+            <a href="https://www.github.com/noahneville/">Github</a>
+            <a href="https://www.linkedin.com/in/noahbrunner/">LinkedIn</a>
+          </address>
+        </div>
+      </section>
     </main>
-
-</body>
+  </body>
 </html>
