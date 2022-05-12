@@ -123,10 +123,10 @@ main {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   height: 200px;
   align-items: flex-end;
-  flex-basis: 45%;
+  flex-basis: 45% !important;
   margin: 1.5em;
   background-color: var(--secondary);
   border: solid var(--secondary);
@@ -138,13 +138,9 @@ main {
 h4 {
   background-color: var(--secondary);
   color: var(--primary);
-  font-size: 2em;
   padding: 5px;
 }
 
-.cards h4 {
-  font-size: 1.25em;
-}
 .cards:hover {
   background-color: rgb(40, 46, 84, 0.3);
 }
@@ -152,7 +148,7 @@ h4 {
 /* images linked in projects cards */
 #project-1 {
   height: 300px;
-  flex-basis: 100%;
+  flex-basis: 100% !important;
   background-image: url("https://github.com/noahneville/Meal-Planner/raw/main/assets/images/background.jpeg");
   background-size: cover;
 }
